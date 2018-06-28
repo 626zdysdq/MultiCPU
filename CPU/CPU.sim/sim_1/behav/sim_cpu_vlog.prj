@@ -1,0 +1,33 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteData.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/Skip_PC.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/control_unit.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/InstructionRegister.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/extend_unit.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC_add_four.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/segment_show.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/RAM.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select4_1.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ExtendSa.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ALU.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/RegFile.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/jump_ins.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteReg.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/debounce.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/scan.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/MultipleCycleCPU.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/div.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show_mode.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/cpu_top_control.v"
+verilog xil_defaultlib  "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sim_1/new/sim_cpu.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

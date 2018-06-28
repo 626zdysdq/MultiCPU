@@ -1,0 +1,54 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteData.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module select_for_WriteData
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/Skip_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Skip_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/InstructionRegister.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionRegister
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/extend_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC_add_four.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_add_four
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/segment_show.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module segment_show
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module select
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataRegister
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module select4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ExtendSa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ExtendSa
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/jump_ins.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jump_ins
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module select_for_WriteReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module show
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/scan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scan
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/MultipleCycleCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MultipleCycleCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show_mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module show_mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/cpu_top_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_top_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sim_1/new/sim_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

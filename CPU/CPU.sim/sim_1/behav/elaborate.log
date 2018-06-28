@@ -1,0 +1,75 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.3/bin/unwrapped/win64.o/xelab.exe -wto 65a0ddf96eef450ab8e25c1341d0fe7c --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_cpu_behav xil_defaultlib.sim_cpu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/MultipleCycleCPU.v" Line 1. Module MultipleCycleCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC.v" Line 1. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/InstructionRegister.v" Line 1. Module InstructionRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/control_unit.v" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteReg.v" Line 1. Module select_for_WriteReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC_add_four.v" Line 1. Module PC_add_four doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteData.v" Line 1. Module select_for_WriteData doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v" Line 1. Module DataRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v" Line 1. Module DataRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ExtendSa.v" Line 1. Module ExtendSa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v" Line 1. Module select doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v" Line 1. Module select doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v" Line 1. Module DataRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v" Line 1. Module select doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v" Line 1. Module DataRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/jump_ins.v" Line 1. Module jump_ins doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/Skip_PC.v" Line 1. Module Skip_PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select4_1.v" Line 1. Module select4_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show_mode.v" Line 2. Module show_mode doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/MultipleCycleCPU.v" Line 1. Module MultipleCycleCPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC.v" Line 1. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/InstructionRegister.v" Line 1. Module InstructionRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/control_unit.v" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteReg.v" Line 1. Module select_for_WriteReg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC_add_four.v" Line 1. Module PC_add_four doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteData.v" Line 1. Module select_for_WriteData doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v" Line 1. Module DataRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v" Line 1. Module DataRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ExtendSa.v" Line 1. Module ExtendSa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v" Line 1. Module select doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v" Line 1. Module select doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v" Line 1. Module DataRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v" Line 1. Module select doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v" Line 1. Module DataRegister doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/jump_ins.v" Line 1. Module jump_ins doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/Skip_PC.v" Line 1. Module Skip_PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select4_1.v" Line 1. Module select4_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show_mode.v" Line 2. Module show_mode doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debounce
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.scan
+Compiling module xil_defaultlib.segment_show
+Compiling module xil_defaultlib.show
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.InstructionRegister
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.select_for_WriteReg
+Compiling module xil_defaultlib.PC_add_four
+Compiling module xil_defaultlib.select_for_WriteData
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.extend_unit
+Compiling module xil_defaultlib.DataRegister
+Compiling module xil_defaultlib.ExtendSa
+Compiling module xil_defaultlib.select
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.jump_ins
+Compiling module xil_defaultlib.Skip_PC
+Compiling module xil_defaultlib.select4_1
+Compiling module xil_defaultlib.MultipleCycleCPU
+Compiling module xil_defaultlib.show_mode
+Compiling module xil_defaultlib.cpu_top_control
+Compiling module xil_defaultlib.sim_cpu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_cpu_behav

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Tue Jun 26 09:14:08 2018
+# Process ID: 2268
+# Current directory: C:/Users/zhuduoyu/CPU/CPU.runs/impl_1
+# Command line: vivado.exe -log cpu_top_control.vdi -applog -messageDb vivado.pb -mode batch -source cpu_top_control.tcl -notrace
+# Log file: C:/Users/zhuduoyu/CPU/CPU.runs/impl_1/cpu_top_control.vdi
+# Journal file: C:/Users/zhuduoyu/CPU/CPU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source cpu_top_control.tcl -notrace

@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/jumpPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jumpPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/ChooseInput.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ChooseInput
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/ChooseWriteReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ChooseWriteReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/ExtendSa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ExtendSa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/ChooseWriteData.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ChooseWriteData
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/AddPC1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddPC1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/AddPC2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddPC2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/NextPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NextPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sources_1/new/MultiCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MultiCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.srcs/sim_1/new/simCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhuduoyu/MultiCPU/MultiCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

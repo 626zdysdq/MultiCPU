@@ -1,0 +1,929 @@
+
+*** Running vivado
+    with args -log cpu_top_control.vds -m64 -mode batch -messageDb vivado.pb -notrace -source cpu_top_control.tcl
+
+
+****** Vivado v2015.3 (64-bit)
+  **** SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+  **** IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source cpu_top_control.tcl -notrace
+Command: synth_design -top cpu_top_control -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 286.000 ; gain = 114.379
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cpu_top_control' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/cpu_top_control.v:23]
+INFO: [Synth 8-638] synthesizing module 'debounce' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/debounce.v:22]
+INFO: [Synth 8-256] done synthesizing module 'debounce' (1#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/debounce.v:22]
+INFO: [Synth 8-638] synthesizing module 'div' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/div.v:23]
+INFO: [Synth 8-256] done synthesizing module 'div' (2#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/div.v:23]
+INFO: [Synth 8-638] synthesizing module 'scan' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/scan.v:22]
+INFO: [Synth 8-256] done synthesizing module 'scan' (3#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/scan.v:22]
+INFO: [Synth 8-638] synthesizing module 'show' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show.v:22]
+INFO: [Synth 8-638] synthesizing module 'segment_show' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/segment_show.v:22]
+INFO: [Synth 8-226] default block is never used [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/segment_show.v:29]
+INFO: [Synth 8-256] done synthesizing module 'segment_show' (4#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/segment_show.v:22]
+INFO: [Synth 8-256] done synthesizing module 'show' (5#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show.v:22]
+INFO: [Synth 8-638] synthesizing module 'MultipleCycleCPU' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/MultipleCycleCPU.v:1]
+INFO: [Synth 8-638] synthesizing module 'PC' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC.v:1]
+INFO: [Synth 8-256] done synthesizing module 'PC' (6#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC.v:1]
+INFO: [Synth 8-638] synthesizing module 'ROM' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:23]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'E:/Xilinx/workbench/Multi_period_cpu/test.txt'; please make sure the file is added to project and has read permission, ignoring [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:32]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+WARNING: [Synth 8-3848] Net mem in module/entity ROM does not have driver. [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:29]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'ROM' (7#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ROM.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionRegister' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/InstructionRegister.v:1]
+INFO: [Synth 8-256] done synthesizing module 'InstructionRegister' (8#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/InstructionRegister.v:1]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/control_unit.v:1]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (9#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/control_unit.v:1]
+INFO: [Synth 8-638] synthesizing module 'select_for_WriteReg' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteReg.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteReg.v:9]
+INFO: [Synth 8-256] done synthesizing module 'select_for_WriteReg' (10#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteReg.v:1]
+INFO: [Synth 8-638] synthesizing module 'PC_add_four' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC_add_four.v:1]
+INFO: [Synth 8-256] done synthesizing module 'PC_add_four' (11#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/PC_add_four.v:1]
+INFO: [Synth 8-638] synthesizing module 'select_for_WriteData' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteData.v:1]
+INFO: [Synth 8-256] done synthesizing module 'select_for_WriteData' (12#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteData.v:1]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (13#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/RegFile.v:23]
+INFO: [Synth 8-638] synthesizing module 'extend_unit' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/extend_unit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'extend_unit' (14#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/extend_unit.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataRegister' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v:1]
+INFO: [Synth 8-256] done synthesizing module 'DataRegister' (15#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/DataRegister.v:1]
+INFO: [Synth 8-638] synthesizing module 'ExtendSa' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ExtendSa.v:1]
+INFO: [Synth 8-256] done synthesizing module 'ExtendSa' (16#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ExtendSa.v:1]
+INFO: [Synth 8-638] synthesizing module 'select' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v:1]
+INFO: [Synth 8-256] done synthesizing module 'select' (17#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select.v:1]
+INFO: [Synth 8-638] synthesizing module 'ALU' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (18#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'RAM' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/RAM.v:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'RAM_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+RAM "RAM_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'RAM' (19#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/RAM.v:23]
+INFO: [Synth 8-638] synthesizing module 'jump_ins' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/jump_ins.v:1]
+INFO: [Synth 8-256] done synthesizing module 'jump_ins' (20#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/jump_ins.v:1]
+INFO: [Synth 8-638] synthesizing module 'Skip_PC' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/Skip_PC.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Skip_PC' (21#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/Skip_PC.v:1]
+INFO: [Synth 8-638] synthesizing module 'select4_1' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select4_1.v:1]
+WARNING: [Synth 8-567] referenced signal 'IAddr' should be on the sensitivity list [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select4_1.v:11]
+WARNING: [Synth 8-567] referenced signal 'rs' should be on the sensitivity list [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select4_1.v:11]
+INFO: [Synth 8-256] done synthesizing module 'select4_1' (22#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select4_1.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MultipleCycleCPU' (23#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/MultipleCycleCPU.v:1]
+INFO: [Synth 8-638] synthesizing module 'show_mode' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show_mode.v:2]
+INFO: [Synth 8-256] done synthesizing module 'show_mode' (24#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/show_mode.v:2]
+INFO: [Synth 8-256] done synthesizing module 'cpu_top_control' (25#1) [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/cpu_top_control.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 325.051 ; gain = 153.430
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 325.051 ; gain = 153.430
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/zhuduoyu/CPU/CPU.srcs/constrs_1/new/CPU.xdc]
+Finished Parsing XDC File [C:/Users/zhuduoyu/CPU/CPU.srcs/constrs_1/new/CPU.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/zhuduoyu/CPU/CPU.srcs/constrs_1/new/CPU.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/cpu_top_control_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/cpu_top_control_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 615.035 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:46 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:46 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:46 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "select0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "select0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "select0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "select0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IRWre" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "isHalt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PCSrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PCWre" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regFile_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/ALU.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'WriteReg_reg' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/select_for_WriteReg.v:10]
+WARNING: [Synth 8-327] inferring latch for variable 'result_reg' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/extend_unit.v:29]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	               20 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	  33 Input     32 Bit        Muxes := 2     
+	   8 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 96    
+	   6 Input      8 Bit        Muxes := 2     
+	  16 Input      7 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 38    
+	   5 Input      1 Bit        Muxes := 34    
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module debounce 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
+Module div 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module scan 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 4     
+Module segment_show 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      7 Bit        Muxes := 1     
+Module show 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      4 Bit        Muxes := 1     
+Module PC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ROM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 3     
+Module InstructionRegister 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module control_unit 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   5 Input      1 Bit        Muxes := 2     
+Module select_for_WriteReg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      5 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module PC_add_four 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module select_for_WriteData 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module RegFile 
+Detailed RTL Component Info : 
++---Muxes : 
+	  33 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 32    
+Module DataRegister 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module select 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+Module RAM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 96    
+	   5 Input      1 Bit        Muxes := 32    
+Module Skip_PC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module select4_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+Module show_mode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      8 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:55 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:29 ; elapsed = 00:00:55 . Memory (MB): peak = 615.035 ; gain = 443.414
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[11] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[12] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[13] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[14] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[15] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[6] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[7] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[8] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[9] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[10] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[3] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[4] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[5] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[0] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[1] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[1] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[2] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[11] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[12] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[13] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[14] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[15] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[16] ' (LD) to 'm/\eu/result_reg[17] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[17] ' (LD) to 'm/\eu/result_reg[18] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[18] ' (LD) to 'm/\eu/result_reg[19] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[19] ' (LD) to 'm/\eu/result_reg[20] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[20] ' (LD) to 'm/\eu/result_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[21] ' (LD) to 'm/\eu/result_reg[22] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[22] ' (LD) to 'm/\eu/result_reg[23] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[23] ' (LD) to 'm/\eu/result_reg[24] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[24] ' (LD) to 'm/\eu/result_reg[25] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[25] ' (LD) to 'm/\eu/result_reg[26] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[26] ' (LD) to 'm/\eu/result_reg[27] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[27] ' (LD) to 'm/\eu/result_reg[28] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[28] ' (LD) to 'm/\eu/result_reg[29] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[29] ' (LD) to 'm/\eu/result_reg[30] '
+INFO: [Synth 8-3886] merging instance 'm/\eu/result_reg[30] ' (LD) to 'm/\eu/result_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[6] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[7] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[8] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[9] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[10] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[20] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[19] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[18] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[17] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[16] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[30] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[31] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[26] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[29] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[27] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[28] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[25] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[24] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[23] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/Ins_Register_reg[22] ' (FDE_1) to 'm/\InReg/Ins_Register_reg[21] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/\InReg/Ins_Register_reg[21] )
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[3] ' (FD) to 'm/\InReg/InsOut_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[4] ' (FD) to 'm/\InReg/InsOut_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[5] ' (FD) to 'm/\InReg/InsOut_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[0] ' (FD) to 'm/\InReg/InsOut_reg[1] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[1] ' (FD) to 'm/\InReg/InsOut_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[2] ' (FD) to 'm/\InReg/InsOut_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[20] ' (FD) to 'm/\InReg/InsOut_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[19] ' (FD) to 'm/\InReg/InsOut_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[18] ' (FD) to 'm/\InReg/InsOut_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[17] ' (FD) to 'm/\InReg/InsOut_reg[16] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[16] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[30] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[31] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[26] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[29] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[27] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[28] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[25] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[24] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[23] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\InReg/InsOut_reg[22] ' (FD) to 'm/\InReg/InsOut_reg[21] '
+INFO: [Synth 8-3886] merging instance 'm/\select_2_5/WriteReg_reg[4] ' (LD) to 'm/\select_2_5/WriteReg_reg[3] '
+INFO: [Synth 8-3886] merging instance 'm/\select_2_5/WriteReg_reg[3] ' (LD) to 'm/\select_2_5/WriteReg_reg[0] '
+INFO: [Synth 8-3886] merging instance 'm/\select_2_5/WriteReg_reg[0] ' (LD) to 'm/\select_2_5/WriteReg_reg[2] '
+INFO: [Synth 8-3886] merging instance 'm/\select_2_5/WriteReg_reg[2] ' (LD) to 'm/\select_2_5/WriteReg_reg[1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[31][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[30][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[29][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[28][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[27][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[26][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[25][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[24][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[23][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[22][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[21][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[20][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[19][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[18][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[17][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[16][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[15][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[14][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[13][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[12][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[11][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[10][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[9][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[8][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[7][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[6][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[5][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[4][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[3][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[2][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[1][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[31][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[30][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[29][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[28][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[27][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[26][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[25][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[24][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[23][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[22][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[21][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[20][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[19][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[18][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[17][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[16][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[15][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[14][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[13][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[12][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[11][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[10][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[9][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[8][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[7][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[6][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[5][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[4][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[3][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[2][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[1][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[31][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[30][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[29][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[28][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[27][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[26][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[25][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[24][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[23][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[22][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[21][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[20][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[19][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[18][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[17][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[16][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[15][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[14][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[13][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[12][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[11][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[10][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[9][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[8][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[7][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[6][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[5][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[4][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[3][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[2][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[1][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[31][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[30][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (m/ram/\RAM_reg[29][1] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[0] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[1] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[2] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[3] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[4] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[5] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[6] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[7] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[8] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[9] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[10] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[11] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[12] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[13] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[14] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[15] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[16] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[17] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Synth 8-3886] merging instance 'm/\ADR/DataRegisterMem_reg[18] ' (FD_1) to 'm/\ADR/DataRegisterMem_reg[31] '
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (\db2/outp_reg ) is unused and will be removed from module cpu_top_control.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[31] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[30] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[29] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[28] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[27] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[26] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[25] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[24] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[23] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[22] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[21] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[20] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[19] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[18] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[17] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[16] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[15] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[14] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[13] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[12] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[11] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[10] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[9] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[8] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\PC_out_reg[0] ) is unused and will be removed from module PC.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[31] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[30] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[29] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[28] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[27] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[26] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[25] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[24] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[23] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[22] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[21] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[20] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[19] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[18] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[17] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[16] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[15] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[14] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[13] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[12] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[11] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[10] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[9] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[8] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[7] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[6] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[5] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[4] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[3] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[2] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[1] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\InReg/Ins_Register_reg[0] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\state_reg[2] ) is unused and will be removed from module control_unit.
+WARNING: [Synth 8-3332] Sequential element (isHalt_reg) is unused and will be removed from module control_unit.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'm/cu/isHalt_reg/Q' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/control_unit.v:49]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/control_unit.v:49]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [//Mac/Home/Desktop/ECOP-16341002-03/MutipleCycleCPU_apply/MutipleCycleCPU_apply.srcs/sources_1/new/control_unit.v:49]
+WARNING: [Synth 8-3332] Sequential element (\select_2_5/WriteReg_reg[4] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\select_2_5/WriteReg_reg[3] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\select_2_5/WriteReg_reg[2] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\select_2_5/WriteReg_reg[1] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\select_2_5/WriteReg_reg[0] ) is unused and will be removed from module MultipleCycleCPU.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][31] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][30] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][29] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][28] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][27] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][26] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][25] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][24] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][23] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][22] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][21] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][20] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][19] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][18] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][17] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][16] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][15] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][14] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][13] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][12] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][11] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][10] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][9] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][8] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][7] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][6] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][5] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][4] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][3] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][2] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][1] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[0][0] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[1][31] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[1][30] ) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (\regFile_reg[1][29] ) is unused and will be removed from module RegFile.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:58 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:31 ; elapsed = 00:00:58 . Memory (MB): peak = 615.035 ; gain = 443.414
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+Finished Parallel Timing Optimization  : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 615.035 ; gain = 443.414
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:01:19 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    15|
+|3     |LUT1   |    69|
+|4     |LUT2   |     9|
+|5     |LUT3   |    10|
+|6     |LUT4   |    12|
+|7     |LUT5   |     4|
+|8     |LUT6   |    22|
+|9     |FDCE   |     9|
+|10    |FDRE   |    83|
+|11    |IBUF   |     6|
+|12    |OBUF   |    11|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-----------------+------+
+|      |Instance |Module           |Cells |
++------+---------+-----------------+------+
+|1     |top      |                 |   251|
+|2     |  db1    |debounce         |    53|
+|3     |  di     |div              |    82|
+|4     |  m      |MultipleCycleCPU |    31|
+|5     |    cu   |control_unit     |     7|
+|6     |    pc   |PC               |    21|
+|7     |    pc_4 |PC_add_four      |     3|
+|8     |  s      |show             |    24|
+|9     |    ss   |segment_show     |    15|
+|10    |  sc     |scan             |     8|
+|11    |  sm     |show_mode        |    34|
++------+---------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:01:21 . Memory (MB): peak = 615.035 ; gain = 443.414
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 3 critical warnings and 1672 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:54 . Memory (MB): peak = 615.035 ; gain = 116.957
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:01:22 . Memory (MB): peak = 615.035 ; gain = 443.414
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 8 inverter(s) to 83 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+310 Infos, 205 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:01:13 . Memory (MB): peak = 615.035 ; gain = 410.324
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 615.035 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 26 09:00:09 2018...
